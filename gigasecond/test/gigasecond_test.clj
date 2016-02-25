@@ -12,5 +12,5 @@
   (is (= [1991 3 27] (gigasecond/from 1959 7 19))))
 
 ;; customize this to test your birthday and find your gigasecond date:
-;; (deftest your-birthday
-;;   (is (= [year2 month2 day2] (gigasecond/from year1 month1 day1))))
+(deftest your-birthday
+  (is (= [2017 5 28] (gigasecond/from 1985 9 19))))
