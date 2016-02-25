@@ -1,6 +1,5 @@
 (ns gigasecond
-  (:import (java.time LocalDateTime Duration)
-           (java.time.temporal ChronoUnit)))
+  (:import (java.time LocalDateTime Duration)))
 
 (defn- exp [b e]
   (reduce * (repeat e b)))
