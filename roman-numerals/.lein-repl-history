@@ -66,3 +66,8 @@
 (numerals 8)
 (numerals 9)
 (numerals 10)
+(reduce * (repeat 2 2))
+(reduce * (repeat 3 2))
+(reduce * (repeat 4 2))
+(reduce * (repeat 5 2))
+(exit)

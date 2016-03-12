@@ -1,0 +1,2 @@
+(reduce * (repeat 0 2))
+(reduce * (repeat 1 2))
